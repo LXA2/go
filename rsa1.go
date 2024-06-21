@@ -107,8 +107,8 @@ func main() {
     fmt.Println("Private Key:\n", privateKey)
 	fmt.Println("\n------------------------------------------\n")
 
-    // 加密消息
-    message := "Hello, RSA encryption!"
+
+	message := "test message!!! 一二三四五六七八九十"
     encryptedMessage, err := encrypt(publicKey, message)
     if err != nil {
         fmt.Println("Error encrypting message:", err)
